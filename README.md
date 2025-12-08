@@ -5,9 +5,17 @@
 
 ---
 
+## 🧩 系统流程图（Pipeline）
+
+系统整体流程展示如下：
+
+![系统流程图](media/pipeline.png).
+
+---
+
 ## 📱 VR Demo 平台（APK 下载）
 
-本项目提供可直接安装到 VR 设备中的 Demo 平台，包含年龄预测、动作风格迁移与多视角交互体验等功能。
+本项目提供可直接安装到 VR 设备中的 Demo 平台，包含年龄预测、动作风格迁移与多视角交互等体验功能。
 
 The demo application (APK) can be accessed via the following link:
 [https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg](https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg) (extraction code: 375t).
@@ -25,13 +33,6 @@ The demo application (APK) can be accessed via the following link:
 
 [https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u](https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u) (extraction code: 6a2u).
 
----
-
-## 🧩 系统流程图（Pipeline）
-
-系统整体流程展示如下：
-
-![系统流程图](media/pipeline.png)
 
 ---
 
