@@ -9,8 +9,9 @@
 
 本项目提供可直接安装到 VR 设备中的 Demo 平台，包含年龄预测、动作风格迁移与多视角交互体验等功能。
 
-👉 **[点击下载 Demo 平台（APK）](platform/demo_platform.apk)**  
-（将文件放置于 `platform/` 目录，VR 一体机可直接安装运行）
+The demo application (APK) can be accessed via the following link:
+[https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg](https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg) (extraction code: 375t).
+
 
 ---
 
