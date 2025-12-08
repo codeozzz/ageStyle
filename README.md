@@ -21,6 +21,10 @@ The demo application (APK) can be accessed via the following link:
   您的浏览器不支持 video 标签。
 </video>
 
+若视频不能正常播放,可下载后观看~
+
+[https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u](https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u) (extraction code: 6a2u).
+
 ---
 
 ## 🧩 系统流程图（Pipeline）
@@ -37,16 +41,10 @@ AgeStyle 系统通过深度学习的视频动作解析与生成模型，将用�
 核心特点包括：
 
 ### ⭐ 年龄自适应动作预测（Age-Adaptive Motion Prediction）
-- 覆盖从儿童到老年的完整动作风格序列
-- 支持顺向与逆向年龄变化的动作生成
 
 ### ⭐ 动态动作风格迁移（Motion Style Transfer）
-- 输入用户实时动作，输出目标年龄段风格动作
-- 多维度动作属性建模（速度、姿态、平衡等）
 
 ### ⭐ VR 沉浸式交互
-- 支持第一人称、第三人称等自由视角
-- 动态切换年龄段动作风格，实时可视化
 
 系统适用于：  
 教育、人机交互研究、康复训练、虚拟角色制作、动作学科科普等多类场景。
