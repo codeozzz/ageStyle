@@ -1,70 +1,75 @@
-# 🧬 AgeStyle：基于年龄自适应的 VR 动作风格迁移系统
+# 🧬 AgeStyle: Age-Adaptive Motion Style Transfer System for Virtual Reality
 
-本仓库为 **AgeStyle: Dynamic Age-Adaptive Motion Transfer in Virtual Reality** 的开源示例资源，提供 Demo 平台（APK）、系统演示视频以及核心流程图。该系统结合深度学习与 VR 技术，实现不同年龄段动作风格的实时生成与沉浸式展示。
-
-
----
-
-## 🧩 系统流程图（Pipeline）
-
-系统整体流程展示如下：
-
-![系统流程图](media/pipeline.png).
+This repository provides open-source demo resources for **AgeStyle: Dynamic Age-Adaptive Motion Transfer in Virtual Reality**, including a demo platform (APK), system demonstration videos, and a core pipeline overview.  
+The system integrates deep learning with VR technology to enable real-time generation and immersive visualization of motion styles across different age groups.
 
 ---
 
-## 📱 VR Demo 平台（APK 下载）
+## 🧩 System Pipeline
 
-本项目提供可直接安装到 VR 设备中的 Demo 平台，包含年龄预测、动作风格迁移与多视角交互等体验功能。
+The overall system pipeline is illustrated below:
 
-The demo application (APK) can be accessed via the following link:
-[https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg](https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg) (extraction code: 375t).
-
+![System Pipeline](media/pipeline.png).
 
 ---
 
-## 🎥 系统演示视频（Demo Video）
+## 📱 VR Demo Platform (APK Download)
+
+A VR demo application is provided, which can be directly installed on VR devices.  
+The demo includes features such as age prediction, motion style transfer, and multi-view interactive experiences.
+
+The demo application (APK) can be accessed via the following link:  
+[https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg](https://pan.baidu.com/s/1OaOYOCE84GhInVFHOcToeg)  
+(extraction code: **375t**).
+
+---
+
+## 🎥 System Demo Video
 
 <video src="media/demo_video.mp4" controls="controls" width="70%">
-  您的浏览器不支持 video 标签。
+  Your browser does not support the video tag.
 </video>
 
-若视频不能正常播放,可下载后观看~
+If the video cannot be played properly, you may download it for offline viewing:
 
-[https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u](https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u) (extraction code: 6a2u).
-
-
----
-
-## 📄 项目简介
-
-AgeStyle 系统通过深度学习的视频动作解析与生成模型，将用户动作转换为不同年龄段（儿童、青年、中年、老年）的运动表现。  
-核心特点包括：
-
-### ⭐ 年龄自适应动作预测（Age-Adaptive Motion Prediction）
-
-### ⭐ 动态动作风格迁移（Motion Style Transfer）
-
-### ⭐ VR 沉浸式交互
-
-系统适用于：  
-教育、人机交互研究、康复训练、虚拟角色制作、动作学科科普等多类场景。
-
+[https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u](https://pan.baidu.com/s/1HGO9d7QvPyCwchdJFbWVJg?pwd=6a2u)  
+(extraction code: **6a2u**).
 
 ---
 
-**模型代码、数据处理管线与 VR 核心交互模块将在论文正式发表后开放。**
+## 📄 Project Overview
+
+**AgeStyle** leverages deep learning–based motion analysis and generation models to transform user motions into age-specific motion styles, including **children, young adults, middle-aged adults, and the elderly**.
+
+Key features include:
+
+### ⭐ Age-Adaptive Motion Prediction
+
+### ⭐ Dynamic Motion Style Transfer
+
+### ⭐ Immersive VR Interaction
+
+The system is applicable to a wide range of scenarios, including:
+- Education
+- Human–Computer Interaction (HCI) research
+- Rehabilitation and training
+- Virtual character creation
+- Motion science education and outreach
+
+---
+
+**The model implementation, data processing pipeline, and core VR interaction modules will be released after the official publication of the paper.**
 
 ---
 
 ## 📚 Citation
 
-如果您在研究中使用本项目，请引用以下论文：
+If you use this project in your research, please cite the following paper:
 
-**Feng Zhou, Chao Liu, Yiqing Huang, Ju Dai , Sen-Zhe X.**  
+**Feng Zhou, Chao Liu, Yiqing Huang, Ju Dai, Sen-Zhe X.**  
 **AgeStyle: Dynamic Age-Adaptive Motion Transfer in Virtual Reality.**  
 *Virtual Reality & Intelligent Hardware*, (), 1–13.
 
 ---
 
-感谢关注 AgeStyle，我们将持续更新更多内容！
+Thank you for your interest in **AgeStyle**. More updates will be released soon!
