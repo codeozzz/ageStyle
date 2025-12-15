@@ -58,7 +58,112 @@ The system is applicable to a wide range of scenarios, including:
 
 ---
 
-**The model implementation, data processing pipeline, and core VR interaction modules will be released after the official publication of the paper.**
+## 🛠️ Model Usage
+
+### Requirements
+
+- Python 3.8+
+- PyTorch >= 1.7.1
+- scipy
+- pyyaml
+- numpy
+- clip (OpenAI CLIP)
+
+### Installation
+
+Clone this repository and create environment:
+
+```bash
+cd ageStyle
+conda create -n ageStyle python=3.8
+conda activate ageStyle
+```
+
+First, install PyTorch >= 1.7.1 from [PyTorch](https://pytorch.org/).  
+Then install the other dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Quick Start - Motion Style Transfer
+
+Run the following command to perform motion style transfer:
+
+```bash
+cd model
+python test.py --content_src data/xia_test/neutral_01_000.bvh \
+               --style_src data/xia_test/childlike_01_000.bvh \
+               --output_dir output
+```
+
+**Parameters:**
+- `--content_src`: Input content BVH file (the motion you want to transform)
+- `--style_src`: Input style BVH file (the target style)
+- `--output_dir`: Output directory for the generated BVH file
+
+### Available Styles
+
+based Xia Dataset, the model supports the following motion styles:
+- `angry` - 愤怒
+- `childlike` - 童稚
+- `depressed` - 沮丧
+- `neutral` - 中性
+- `old` - 老年
+- `proud` - 骄傲
+- `sexy` - 性感
+- `strutting` - 昂首阔步
+
+### Available Content Types
+
+The model supports the following content motions:
+- `walk` - 行走
+- `run` - 跑步
+- `jump` - 跳跃
+- `kick` - 踢腿
+- `punch` - 出拳
+
+---
+
+## 📁 Project Structure
+
+```
+ageStyle/
+├── media/                      # Demo videos and images
+│   ├── demo_video.mp4
+│   └── pipeline.png
+├── model/                      # Core model code
+│   ├── data/                   # Test data and normalization files
+│   │   ├── xia_norms/          # Normalization parameters
+│   │   └── xia_test/           # Test BVH files
+│   ├── global_info/            # Skeleton configuration
+│   ├── pretrained/             # Pretrained model weights
+│   │   └── pth/                # Model checkpoints
+│   ├── utils/                  # Utility functions
+│   ├── output/                 # Generated output files
+│   ├── test.py                 # Main inference script
+│   ├── model.py                # Model definition
+│   ├── networks.py             # Network architectures
+│   ├── config.py               # Configuration
+│   └── ...
+├── platform/                   # VR demo platform
+│   └── demo_platform.apk
+└── README.md
+```
+
+---
+
+## 📦 Dataset & Training Code
+
+### Xia Dataset
+
+The complete Xia motion style dataset can be downloaded from:  
+[https://drive.google.com/file/d/16vKR9-OWleMuIIJ5G5iD3sqHF6MGyLEr/view](https://drive.google.com/file/d/16vKR9-OWleMuIIJ5G5iD3sqHF6MGyLEr/view)
+
+### BFA Dataset & Training Code
+
+🚧 **Coming Soon!**  
+The BFA (Bandai-Namco Film Archive) dataset adapted for this network and the complete training code will be uploaded soon.
 
 ---
 

@@ -1,0 +1,7 @@
+torch>=1.7.1
+numpy
+scipy
+pyyaml
+tqdm
+clip @ git+https://github.com/openai/CLIP.git
+
