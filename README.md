@@ -41,24 +41,9 @@ If the video cannot be played properly, you may download it for offline viewing:
 
 **AgeStyle** leverages deep learning–based motion analysis and generation models to transform user motions into age-specific motion styles, including **children, young adults, middle-aged adults, and the elderly**.
 
-Key features include:
-
-### ⭐ Age-Adaptive Motion Prediction
-
-### ⭐ Dynamic Motion Style Transfer
-
-### ⭐ Immersive VR Interaction
-
-The system is applicable to a wide range of scenarios, including:
-- Education
-- Human–Computer Interaction (HCI) research
-- Rehabilitation and training
-- Virtual character creation
-- Motion science education and outreach
-
 ---
 
-## 🛠️ Model Usage
+## 🛠️ Style Transfer Model Usage
 
 ### Requirements
 
@@ -101,27 +86,6 @@ python test.py --content_src data/xia_test/neutral_01_000.bvh \
 - `--content_src`: Input content BVH file (the motion you want to transform)
 - `--style_src`: Input style BVH file (the target style)
 - `--output_dir`: Output directory for the generated BVH file
-
-### Available Styles
-
-based Xia Dataset, the model supports the following motion styles:
-- `angry` - 愤怒
-- `childlike` - 童稚
-- `depressed` - 沮丧
-- `neutral` - 中性
-- `old` - 老年
-- `proud` - 骄傲
-- `sexy` - 性感
-- `strutting` - 昂首阔步
-
-### Available Content Types
-
-The model supports the following content motions:
-- `walk` - 行走
-- `run` - 跑步
-- `jump` - 跳跃
-- `kick` - 踢腿
-- `punch` - 出拳
 
 ---
 
