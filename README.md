@@ -127,7 +127,7 @@ The complete Xia motion style dataset can be downloaded from:
 ### BFA Dataset & Training Code
 
 🚧 **Coming Soon!**  
-The BFA (Bandai-Namco Film Archive) dataset adapted for this network and the complete training code will be uploaded soon.
+The BFA dataset adapted for this network and the complete training code will be uploaded soon.
 
 ---
 
